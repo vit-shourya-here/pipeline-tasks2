@@ -21,7 +21,7 @@
 
 #task2-print directory
 
-pipeline{
+<!-- pipeline{
     agent any
     stages{
         stage('Check out code'){
@@ -35,11 +35,11 @@ pipeline{
             }
         }
     }
-}
+} -->
 
 #task3-print a message
 
-pipeline{
+<!-- pipeline{
     agent any
     stages{
         stage('Check out code'){
@@ -53,11 +53,11 @@ pipeline{
             }
         }
     }
-}
+} -->
 
 #task4-create a file
 
-pipeline{
+<!-- pipeline{
     agent any
     stages{
         stage('Check out code'){
@@ -71,10 +71,10 @@ pipeline{
             }
         }
     }
-}
+} -->
 
 #task5 - read file
-pipeline{
+<!-- pipeline{
     agent any
     stages{
         stage('Check out code'){
@@ -88,4 +88,4 @@ pipeline{
             }
         }
     }
-}
+} -->
